@@ -1,6 +1,76 @@
 /* 
+
+
 sytlesheet for CSS Demo 
+
+
 */
+
+/* ---------------Box Sizing----------------- */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+
 body {
-    background-color: aqua;
+   
+}
+/*---------Global sizing-------------*/
+/*---------color scheme 
+primary #8160F5----------*/
+body {
+    font-family: 'Shadows Into Light', cursive;
+
+
+}
+header.primary{
+    background:#8160F5;
+    text-align:center;
+    padding: 40px 40px;
+
+}
+
+header.primary h1 {
+    font-size: 2.6rem;
+    margin:20px 0;
+}
+
+header.primary h1 a{
+    color:#ffffff;
+    text-decoration:none;
+}
+
+header.primary h2{
+    fontsize:1.4rem;
+    /* top left/right bottom*/
+    margin:20px auto 40px
+}
+
+header.primary nav{
+
+}
+header.primary nav ul{
+    /* centers list */
+    padding: 0; 
+
+}
+
+header.primary nav ul li{
+
+    list-style-type: none;
+}
+
+header.primary nav ul li a{
+    color:#ffffff;
+    text-decoration: none;
+    background-color: black;
+    padding: 8px 16px;
+    display: inline-block;
 }
