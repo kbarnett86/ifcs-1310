@@ -16,6 +16,11 @@ html {
   *:after {
     box-sizing: inherit;
   }
+  /*-----utility classes----------*/
+  .container{
+      width: 70vw;
+      margin: 40px auto;
+  }
 
 
 
@@ -54,11 +59,18 @@ header.primary h2{
 }
 
 header.primary nav{
+    width:80vw;
+    margin: 0px auto;
+    max-width: 900px;
 
 }
 header.primary nav ul{
     /* centers list */
     padding: 0; 
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+
 
 }
 
@@ -70,7 +82,29 @@ header.primary nav ul li{
 header.primary nav ul li a{
     color:#ffffff;
     text-decoration: none;
-    background-color: black;
+    background-color: rgb(16, 88, 221);
+    background-color:rgba(0,0,0,4);
     padding: 8px 16px;
     display: inline-block;
+    border-radius: 20px;
+    transition: .5s;
 }
+
+header.primary nav a:hover{
+   background-color: rgba(0,0,0,8);
+}
+
+#intro{
+    border-bottom: 1px solid #000000;
+    padding-bottom: 1.1rem;
+} 
+
+#intro h2{
+    color:#8160f5;
+    border-bottom: 1px dotted #000000;
+    
+
+}
+
+
+
