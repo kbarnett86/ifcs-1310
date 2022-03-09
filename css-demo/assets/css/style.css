@@ -126,6 +126,100 @@ header.primary nav a:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-bottom: 1px #000000;
+
+
+}
+
+#additional-elements h2{
+    color: #8160F5;
+    border-bottom: 1px dotted #000000;
+
+} 
+
+#additional-elements h3{
+    border-left: 10px solid #8160F5
+    
+    padding: 5px 10px;
+
+}
+#additional-elements a{
+    color:#c0c0c0 
+
+}
+
+.img-right{
+    float: right;
+    margin: 20px;
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+}
+
+.img-left{
+    float: right;
+    margin: 20px;
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+}
+.img-center{
+    float: right;
+    margin: 20px;
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+}
+
+table{
+    width:100%;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+
+
+}
+
+tr{}
+
+tr:nth-child(odd){
+    background-color: beige;
+}
+
+tr:hover{
+    background-color: rgba(0,0,0,0.4);
+}
+
+td:nth-child(2n), td:nth-child(3n){
+    text-align: right;
+}
+
+th{
+    background: aquamarine;
+    color: #8160f5;
+    width: 33%;
+    padding: 10px;
+}
+td{
+    border: 1px solid #000000;
+    padding: 5px;
+    
+
+}
+
+dl{}
+dt{
+    font-weight:bold;
+    
+
+}
+dd{
+    margin-left: 0;
+}
+
+dd +dt{
+    background-color: aqua;
+    
+}
+
+#additional-elements a: hover{
+    text-decoration: none;
 
 }
 
