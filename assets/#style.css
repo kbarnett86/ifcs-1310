@@ -1,0 +1,23 @@
+/* 
+
+
+style sheep for main page
+
+
+*/
+
+html {
+    box-sizing: border-box;
+
+
+}
+*,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  /*-----utility classes----------*/
+  .container{
+      width: 70vw;
+      margin: 40px auto;
+  }
