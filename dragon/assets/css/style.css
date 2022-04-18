@@ -1,0 +1,32 @@
+/* 
+
+
+sytlesheet for Dragon  
+
+
+*/
+
+/* ---------------Box Sizing----------------- */
+
+html{
+    box-sizing: border-box;
+    
+}
+
+/*-----utility classes----------*/
+.container{
+    width: 70vw;
+    margin: 40px auto;
+}
+
+/*---------Global sizing-------------*/
+/*---------color scheme 
+primary #8160F5----------*/
+body {
+   
+    background-color: #04091d;
+    background-color: #c7c3db;font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    
