@@ -6,27 +6,25 @@ sytlesheet for Dragon
 
 */
 
-/* ---------------Box Sizing----------------- */
 
-html{
+/*---box sizing---*/
+html {
     box-sizing: border-box;
-    
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+/*----utility styles------*/
+
+/*---responsive images---*/
+
+img {
+    max: width 100%; ;
+    height:auto;
 }
 
-/*-----utility classes----------*/
-.container{
-    width: 70vw;
-    margin: 40px auto;
+header.primary{
+    background-image: url(../css/img/dragon-leo.jpeg)
 }
-
-/*---------Global sizing-------------*/
-/*---------color scheme 
-primary #8160F5----------*/
-body {
-   
-    background-color: #04091d;
-    background-color: #c7c3db;font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Shadows Into Light', cursive;
-    font-family: 'Ubuntu', sans-serif;
-    
