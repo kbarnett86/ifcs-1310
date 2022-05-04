@@ -167,7 +167,7 @@ section#history {
 .dev p{
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
-    color: #555973;
+    color: #04050D;
     text-align: left;
     padding: 10px;
 }
@@ -176,25 +176,25 @@ section#history {
     
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
-    color:#555973;
+    color:#04050D;
     text-align: left;
     padding:10px;
 }
 }
 
-/* Style inputs with type="text", select elements and textareas */
+
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
   }
   
-  /* Style the submit button with a specific background color etc */
+  /* Style the submit button  */
   input[type=submit] {
     background-color: #04AA6D;
     color: white;
@@ -204,13 +204,15 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
+  
   input[type=submit]:hover {
     background-color: #45a049;
   }
   
-  /* Add a background color and some padding around the form */
+  
   .contact {
+    flex-direction: column;
+    justify-content: center;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -236,11 +238,12 @@ section#articles .container {
 section#articles h2,
 #content h2 {
     flex:0 0 100%;
-    color: #555973;
+    color: #000000;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
 }
+
 
 section#articles h2{
     color: #fff;
@@ -254,7 +257,7 @@ section#articles h2{
     transition: 0.6s;
     font-size: 0.8rem;
     border-radius: 10px;
-    background:#555973
+    background:#7787A6
 }
 
 #articles article.post h2{
@@ -269,7 +272,7 @@ section#articles h2{
 #articles article figcaption,
 #articles article footer {
   font-size: 0.8em;
-  color: grey;
+  color: #000000;
   text-transform: uppercase;
 }
 #articles .post a:link,
@@ -300,16 +303,18 @@ section#articles h2{
 }
 
 /*-----table history-----*/
-#table .table{
+#table.table{
+    font-family:  Roboto sans-serif;
+    color: #04050D;
     font-size: .9em;
     border-collapse:collapse;
 }
 
-#table .table td{
-    border-bottom: 2px solid #000000;
+#table.table td{
+    border-bottom: 2px solid #04050D;
     padding: 10px;
 }
-#table .table td:nth-child(even){
+#table.table td:nth-child(even){
     text-align:right;
 }
 
@@ -381,7 +386,7 @@ section#articles.container{
 }
 
 body{
-    background-color:#04050D;
+    background-color:#7787A6;
 }
 
 img{
