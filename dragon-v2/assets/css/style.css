@@ -1,0 +1,351 @@
+/* 
+
+
+sytlesheet for Dragon  
+
+
+*/
+/*----colour theme
+#555973 Base
+#04050D
+#1C2B59
+#7787A6-------*/
+
+
+/*---box sizing---*/
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+/*----utility styles------*/
+
+.container {
+    width: 80vw;
+    margin: 40px auto;
+    max-width: 900px;
+  }
+  
+  .img-right {
+    float: right;
+    margin: 10px 0 10px 20px;
+    border: 1px solid #7787A6;
+    padding: 5px;
+  }
+  
+  .img-left {
+    float: left;
+    margin: 10px 20px 10px 0;
+    border: 1px solid #7787A6;
+    padding: 5px;
+  }
+  
+  .img-center {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #7787A6;
+    padding: 5px;
+  }
+
+/*---responsive images---*/
+
+img {
+    max: width 100%; ;
+    height:auto;
+}
+
+
+/*-- Global Styles ------*/
+
+Body{
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+header.primary{
+    background-color: #555973;
+    text-align: center;
+    color: #ffffffff;
+    text-shadow: 2px 2px #000000;
+    padding: 6em 2em;
+    position: relative;
+}
+header.primary::before{
+    content: "";
+    background-image: url(../css/img/dragon-leo.jpeg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+}
+
+header.primary h1{
+    font-size: 3.2rem;
+    margin: 20px 0;
+    position: relative;
+}
+
+header.primary h1 a{
+    color: #ffffff;
+    background-image: url(../css/img/spacex-logo6.png);
+    display: block;
+    width: 460px;
+    height: 70px;
+    margin: 0 auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+header.primary h2{
+font-family: 'Roboto', sans-serif;
+font-size: 2em;
+margin: 20px auto 40px;
+position: relative;
+}
+
+header.primary nav ul {
+    position: relative;
+    display: flex;
+    flex direction: row;
+    justify-content: space-around;
+    padding: 0;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+header.primary nav li {
+    list-style-type: none;
+    padding: 0;
+    width: 20%;
+}
+
+header.primary nav a:link,
+header.primary nav a:visited {
+    color: white;
+    text-decoration: none;
+    background-color: #04050D;
+    background-color: rgba(142, 166, 184, 0.4)
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: 0.5s;
+    display: block;
+}
+
+header.primary nav a:hover,
+header.primary nav a:active {
+    background-color: rgba(51, 83, 107, 0.9);
+}
+
+/*---content-----*/
+body{
+    background-color: #555973;
+}
+section#content {
+    padding: 4em 0;
+}
+
+section#content h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.2em;
+    color: #04050D;
+    text-align: center;
+}
+section#history {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5em;
+    color: #04050D;
+    text-align: center;
+}
+
+.dev p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    color: #04050D;
+    text-align: left;
+    padding: 10px;
+}
+
+.maiden{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    color: #04050D;
+    text-align: left;
+    padding:10px;
+}
+}
+
+/*----articles----*/
+
+section#articles {
+    background-color: #555973;
+}
+
+section#articles .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #000000;
+    padding: 0 0 4em 0;
+}
+
+section#articles h2,
+#content h2 {
+    flex:0 0 100%;
+    color: #555973;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+section#articles h2{
+    color: #fff;
+    text-shadow: 2px 2px #000000;
+}
+
+#articles article.post{
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    transition: 0.6s;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    background:#fff
+}
+
+#articles article.post h2{
+    font-size: 1.4em;
+    text-shadow: none;
+}
+
+#articles article.post:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4))
+}
+#articles article time,
+#articles article figcaption,
+#articles article footer {
+  font-size: 0.8em;
+  color: grey;
+  text-transform: uppercase;
+}
+#articles .post a:link,
+#articles .post a:visited{
+    color:#555973;
+}
+
+#articles .post figure{
+    margin: 0px;
+}
+
+#articles .post img{
+    border-radius: 10px;
+}
+
+#articles ul{
+    padding: 0 20px;
+}
+
+#articles li{
+    margin-bottom: 20px;
+}
+
+/*---Hero-----*/
+
+#slideshow {
+    padding: 3em 0;
+}
+
+/*-----table history-----*/
+#table .table{
+    font-size: .9em;
+    border-collapse:collapse;
+}
+
+#table .table td{
+    border-bottom: 2px solid #000000;
+    padding: 10px;
+}
+#table .table td:nth-child(even){
+    text-align:right;
+}
+
+/*----faq details-----*/
+
+details{
+    font-family: Roboto sans-serif;
+    color: #000000;
+    font-size: 1em;
+    padding: 10px;
+    background-color: #555973;
+    margin-bottom: 10px;
+}
+
+
+
+/*-----footer---*/
+
+footer#colophon {
+    background-color: #555973;
+}
+
+#colophon h6 {
+    padding: 20px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 0.5rem;
+    text-transform: uppercase;
+}
+
+#colophon h6 a: link,
+#colophon h6 a: :visited{
+    color: #fff;
+}
+
+/*---------media queries-----*/
+
+
+@media screen and (max-width 600px) {
+    header.primary nav ul{
+        flex-direction: column;
+        margin: 0 auto;
+        width: 400px;}
+    }
+
+header.primary nav ul li {
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+header.primary nav ul li a{
+    display: block;
+}
+
+section#articles.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #0D0C00
+    padding: 0 0 4em 0;
+}
+
+#artilces artilce.post {
+    width:100%;
+    margin-bottom: 2em;
+
+}
+
+
+
+
+
+
