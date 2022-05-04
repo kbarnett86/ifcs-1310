@@ -167,7 +167,7 @@ section#history {
 .dev p{
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
-    color: #04050D;
+    color: #555973;
     text-align: left;
     padding: 10px;
 }
@@ -176,7 +176,7 @@ section#history {
     
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
-    color: #04050D;
+    color:#555973;
     text-align: left;
     padding:10px;
 }
@@ -218,7 +218,7 @@ section#articles h2{
     transition: 0.6s;
     font-size: 0.8rem;
     border-radius: 10px;
-    background:#fff
+    background:#555973
 }
 
 #articles article.post h2{
@@ -334,7 +334,7 @@ section#articles.container{
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
-    border-bottom: 1px solid #0D0C00
+    border-bottom: 1px solid #555973
     padding: 0 0 4em 0;
 }
 
@@ -342,6 +342,43 @@ section#articles.container{
     width:100%;
     margin-bottom: 2em;
 
+}
+
+body{
+    background-color:#04050D;
+}
+
+img{
+    max-width:100%;
+}
+
+.container{
+    margin:40px auto;
+    width:70vw;
+    /* Set Max Content Width */
+    max-width:700px;
+}
+
+/* Customize Previous/Next/Dots/Autoplay */
+
+.slick-autoplay-toggle-button,
+.slick-prev .slick-prev-icon, .slick-next .slick-next-icon,
+.slick-dots li button .slick-dot-icon,
+.slick-dots li.slick-active button .slick-dot-icon {
+  color: #555973;
+}
+
+/* Customize Previous/Next/Dots/Autoplay - Active State */
+
+.slick-next:focus .slick-next-icon,
+.slick-next:focus .slick-prev-icon,
+.slick-prev:focus .slick-next-icon,
+.slick-prev:focus .slick-prev-icon,
+.slick-dots li button:focus .slick-dot-icon:before,
+.slick-dots li.slick-active button:focus .slick-dot-icon,
+.slick-autoplay-toggle-button:focus 
+{
+    color:#7787A6;
 }
 
 
